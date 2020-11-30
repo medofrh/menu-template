@@ -1,0 +1,102 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	display: block;
+	margin: 2%;
+}
+h1,h3{
+	font-family: Arial;
+}
+p{
+	font-family: Helvetica;
+}
+.section-style{
+	background-color: #636e72;
+	padding: 10px;
+  	border: 1px solid black;
+  	width: 90%;
+	height: 150px;
+	overflow: auto;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.s-header{
+	border:2px solid #2d3436!important; 
+	float: right;
+	padding: 1%;
+	margin-bottom: 2%;
+}
+.s-title{
+
+}
+.s-body{
+	position: relative;
+}
+.s-content{
+	clear: right;
+}
+#x-header{
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 2em;
+}
+#s-iphone{
+	
+	background-color: #81ecec;
+}
+#s-samsung{
+	
+	background-color: #fd79a8;
+}
+#s-huawei{
+	
+	background-color: #ffeaa7;
+
+}
+.row {
+  width: 100%;
+}
+
+@media(min-width: 992px){
+	.col-lg-4{
+		float: left;
+		width: 33.33333%
+	}
+	.col-lg-12{
+		float: left;
+		width: 100%
+	}
+}
+@media (min-width:768px) and (max-width:991px) {
+  	.col-md-6{
+  		float: left;
+		width: 50%
+  	}
+  	.col-md-12{
+		float: left;
+		width: 100%	
+  	}
+  	h1{
+  		font-size: 20px;
+  	}
+  	h3{
+		font-size: 17px;
+	}
+}
+@media(max-width: 767px){
+	.col-sm-12{
+		float: left;
+	    width: 100%;
+    
+	}
+	h1{
+		font-size: 16px;
+	}
+	h3{
+		font-size: 13px;
+	}
+}
